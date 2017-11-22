@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d4d542d6e22d8428aee7af5e6b6c23, type: 3}
+  m_Name: CustomRenderPipelineAsset
+  m_EditorClassIdentifier: 
+  m_MaxPixelLights: 4
+  m_SupportsVertexLight: 1
+  m_SupportSoftParticles: 1
+  m_MSAA: 4
+  m_RenderScale: 1
+  m_ShadowType: 1
+  m_ShadowAtlasResolution: 1024
+  m_ShadowNearPlaneOffset: 2
+  m_ShadowDistance: 50
+  m_ShadowCascades: 2
+  m_Cascade2Split: 0.25
+  m_Cascade4Split: {x: 0.067, y: 0.2, z: 0.467}
+  m_DefaultMaterial: {fileID: 2100000, guid: 227f0d7998b1a734dadb0816584b28da, type: 2}
+  m_DefaultParticleMaterial: {fileID: 2100000, guid: 227f0d7998b1a734dadb0816584b28da,
+    type: 2}
+  m_DefaultTerrainMaterial: {fileID: 2100000, guid: 227f0d7998b1a734dadb0816584b28da,
+    type: 2}
+  m_DefaultShader: {fileID: 4800000, guid: 30577029f022e304980c2b59c28d02b4, type: 3}
+  m_BlitShader: {fileID: 4800000, guid: 55cd19aa3c1b7004a98a8ba651a3b2c7, type: 3}
+  m_CopyDepthShader: {fileID: 4800000, guid: 524998397658b4a488ab32d0e5482bf4, type: 3}
